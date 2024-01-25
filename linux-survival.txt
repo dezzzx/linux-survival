@@ -1,0 +1,134 @@
+1 ls
+5 ls
+7 mkdir primates
+  ls
+8 mv chimps primates
+9 cd primates
+10 pwd 
+   ls
+11cd ..
+  pwd
+13 mkdir reptiles 
+   move cobras reptiles
+14 
+1) Change to another directory?	
+cd
+2) Move files and directories?	
+mv
+3) Rename files and directories?	
+mv
+4) List the contents of a directory?	
+ls
+5) Print your current working directory?	
+pwd
+6) Make a new directory?	
+mkdir
+7) Display the contents of a file?	
+more
+17 mkdir snakes
+19 cp reptiles/cobras snakes
+20 rm reptiles/cobras
+21 rmdir reptiles
+22 mkdir pachyderms
+27 chmod g+w chimps
+29 chmod g+w *
+   ls -l
+30 groups
+31
+
+Which command is used to:
+1) Copy files?	
+cp
+2) Remove files?	
+rm
+3) List the groups you are in?	
+groups
+4) Remove empty directories?	
+rmdir
+5) Change file permissions?	
+chmod
+ 	
+1) Which wildcard represents all files?	
+*
+2) Which letter represents all other users?	
+o
+3) Which letter represents execute permission?	
+x
+36
+man -k user
+37
+man finger
+38 
+finger greg
+39
+cd ~jester
+41
+find . -name "joke*
+43
+cd kids
+45
+cat joke-1 joke-2 > ~/corny
+cd ~
+47
+lpr -P zephyr corny
+49
+lpq -P zephyr
+50 
+lprm -P zephyr 737
+lpr -P typhoon corny
+51
+
+Which command is used to:
+1) Concatenate files?	
+cat
+2) View manual pages?	
+man
+3) Show print queue status?	
+lpq
+4) Locate files?	
+find
+5) Remove print jobs?	
+lprm
+6) Show user information?	
+finger
+ 	
+1) Which symbol means home directory?	
+~
+2) Which symbol sends output to a new file?	
+>
+3) Which symbol means current directory?	
+.
+57
+df
+58
+df .
+61
+ps aux
+64
+ps aux | grep rogue
+65
+kill 796
+66
+ps aux | grep rogue
+67
+kill -9 796
+68
+ps aux | grep rogue
+69
+Which:
+1) command shows free disk space?	
+df
+2) command shows process status?	
+ps
+3) option to the above command shows all system processes?	
+aux
+4) command tells a process to die gracefully?	
+kill
+5) option to the above command tells a process to die immediately?	
+-9
+6) command finds words in text?	
+grep
+7) symbol sends output to another program?	
+|
+8) 'cp' and 'rm' option acts on trees?	
+-r
